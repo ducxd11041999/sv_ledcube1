@@ -10,7 +10,7 @@
 	var ip = require("ip")
 
 						//#Phải khởi tạo io sau khi tạo app!
-    server.listen(process.env.PORT||3000, function()
+    server.listen(3000, function()
     {
     	console.log("connected")
 
