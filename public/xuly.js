@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3000")
+var socket = io("https://ledcube2019.herokuapp.com")
 
 $(document).ready(function()
 {
