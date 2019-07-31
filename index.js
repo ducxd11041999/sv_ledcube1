@@ -8,9 +8,8 @@
 	app.set("view engine","ejs");
 	app.set("views","./views" )
 	var ip = require("ip")
-
-						//#Phải khởi tạo io sau khi tạo app!
-    server.listen(3000, function()
+					//#Phải khởi tạo io sau khi tạo app!
+    server.listen(process.env.PORT||3000, function()
     {
     	console.log("connected")
         console.log(ip.address())
