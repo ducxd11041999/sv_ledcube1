@@ -69,8 +69,8 @@ socket.on("SERVER-SEND-LAMP-MODE", function(data)
 	$("#boxMode").html(data.MODE)
 })
 
-// socket.on("send_port",function(data)
-// {
-// 	alert(data)
-// })
+socket.on("send_port",function(data)
+{
+	alert(data)
+})
 
