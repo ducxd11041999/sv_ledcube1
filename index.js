@@ -12,7 +12,7 @@
         			//#Phải khởi tạo io sau khi tạo app!
     server.listen(process.env.PORT||3000, function()
     {
-        var port_connect = process.env.PORT
+        //var port_connect = process.env.PORT
     	console.log("connected")
         console.log(ip.address())
     });										// Cho socket server (chương trình mạng) lắng nghe ở port 3484
