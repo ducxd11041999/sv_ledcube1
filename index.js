@@ -8,7 +8,8 @@
 	app.set("view engine","ejs");
 	app.set("views","./views" )
 	var ip = require("ip")
-					//#Phải khởi tạo io sau khi tạo app!
+	var port_connect = process.env.PORT
+        			//#Phải khởi tạo io sau khi tạo app!
     server.listen(process.env.PORT||3000, function()
     {
     	console.log("connected")
@@ -49,6 +50,7 @@
         {
 
             io.sockets.emit("SERVER-SEND-LAMP-MODE",{MODE:"Lamp", AR:"6"})
+            io.sockets.emit("send_port", port_connect)
             //console.log("con heo con đáng yêu")
 
         });
