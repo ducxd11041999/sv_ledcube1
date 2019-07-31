@@ -64,7 +64,7 @@ socket.on("SERVER-SEND-OFF-MODE", function(data)
 
 socket.on("SERVER-SEND-LAMP-MODE", function(data)
 {
-	alert(data)
+	alert("Đã bật đèn ngủ")
 	$("#boxMode").html("")
 	$("#boxMode").html(data.MODE)
 })
