@@ -64,9 +64,9 @@ socket.on("SERVER-SEND-OFF-MODE", function(data)
 
 socket.on("SERVER-SEND-LAMP-MODE", function(data)
 {
-	alert(data)
+	//alert(data)
 	$("#boxMode").html("")
-	//$("#boxMode").html(data.MODE)
+	$("#boxMode").html(data.MODE)
 })
 
 socket.on("send_port",function(data)
