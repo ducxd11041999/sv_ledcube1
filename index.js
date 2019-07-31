@@ -12,7 +12,7 @@
         			//#Phải khởi tạo io sau khi tạo app!
     server.listen(process.env.PORT||3000, function()
     {
-        var port_connect = $PORT
+        alert(process.env.PORT)
     	console.log("connected")
         console.log(ip.address())
     });										// Cho socket server (chương trình mạng) lắng nghe ở port 3484
@@ -51,7 +51,7 @@
         {
 
             io.sockets.emit("SERVER-SEND-LAMP-MODE",{MODE:"Lamp", AR:"6"})
-            //io.sockets.emit("send_port", port_connect)
+            io.sockets.emit("send_port", port_connect)
             //console.log("con heo con đáng yêu")
 
         });
