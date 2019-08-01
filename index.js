@@ -50,7 +50,7 @@
         socket.on("CLIENT-SEND-MODE-MHX", function()
         {
 
-            io.sockets.emit("SERVER-SEND-MHX-MODE",{MODE:"Lamp", AR:"6"})
+            io.sockets.emit("SERVER-SEND-MHX-MODE",{MODE:"Mùa Hè Xanh", AR:"6"})
             //console.log("con heo con đáng yêu")
 
         });
@@ -59,7 +59,7 @@
             io.sockets.emit("SERVER-SEND-BOLIDE-MODE",{MODE:"Sao Băng",AR:"7"})
         })
        
-        
+
     })
 function ParseJson(jsondata) {
     try {
