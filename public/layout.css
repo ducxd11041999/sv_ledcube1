@@ -3,7 +3,7 @@ body{background-image: url('anh1.jpg')}
 #left,#right:{min-height: 3000px}
 #left{width: 30%; float:left;}
 #right{width: 70%;float: right;}
-#boxTitle{border: solid 1px black; padding: 10px ;text-align: center; color: red;background-color: green}
+#boxTitle{border: solid 1px black; padding: 10px ;text-align: center; color: red;background-color: green;font-size:200;}
 #boxMode{background-color:pink;border: :solid 2px black;border-top: none;padding: :5px;text-align: center;color: yellow;font-size:150%;}
 #btnModeRain{background-color: #0bd44e; text-align: center;font-size:120%;}
 #btnModeLove{background-color: #d3d622; text-align: center;font-size:120%;}
