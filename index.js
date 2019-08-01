@@ -47,10 +47,10 @@
         {
             io.sockets.emit("SERVER-SEND-OFF-MODE",{MODE:"Off",AR:"5"})
         });
-        socket.on("CLIENT-SEND-MODE-LAMP", function()
+        socket.on("CLIENT-SEND-MODE-MHX", function()
         {
 
-            io.sockets.emit("SERVER-SEND-LAMP-MODE",{MODE:"Lamp", AR:"6"})
+            io.sockets.emit("SERVER-SEND-MHX-MODE",{MODE:"Lamp", AR:"6"})
             //console.log("con heo con đáng yêu")
 
         });
