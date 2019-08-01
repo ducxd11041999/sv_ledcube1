@@ -22,7 +22,7 @@ $(document).ready(function()
 	{
 		socket.emit("CLIENT-SEND-MODE-OFF")
 	})
-	$("#btnLamp").click(function()
+	$("#btnMHX").click(function()
 	{
 		socket.emit("CLIENT-SEND-MODE-MHX")
 	})
