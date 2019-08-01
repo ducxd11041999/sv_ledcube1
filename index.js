@@ -54,8 +54,12 @@
             //console.log("con heo con đáng yêu")
 
         });
+        socket.on("CLIENT-SEND-MODE-BOLIDE",function()
+        {
+            io.sockets.emit("SERVER-SEND-BOLIDE-MODE",{MODE:"Sao Băng",AR:"7"})
+        })
        
-
+        
     })
 function ParseJson(jsondata) {
     try {

@@ -26,6 +26,10 @@ $(document).ready(function()
 	{
 		socket.emit("CLIENT-SEND-MODE-MHX")
 	})
+	$("#btnBolide").click(function()
+	{
+		socket.emit("CLIENT-SEND-MODE-BOLIDE")
+	})
 
 
 })
@@ -69,3 +73,8 @@ socket.on("SERVER-SEND-MHX-MODE", function(data)
 	$("#boxMode").html(data.MODE)
 })
 
+socket.on("SERVER-SEND-BOLIDE-MODE",function(data)
+{
+	$("#boxMode").html("")
+	$("#boxMode").html(data.MODE)
+})

@@ -14,3 +14,4 @@ body{background-image: url('anh1.jpg')}
 #sayHi{font-family: Helvetica, Arial, Tahoma, sans-serif;font-size: 250%;color: red; text-align:center}
 #BUTTON{text-align: center;padding: 100px}
 #hinhanh{width: 100px; height: 100px}
+#btnBolide{background-color: #dbbf1d; text-align: center;font-size:120%;}
